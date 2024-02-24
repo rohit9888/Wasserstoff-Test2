@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "functionName",
+						"type": "string"
+					}
+				],
+				"name": "createBytes",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wasser/registry.sol": "Byt"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wasser/registry.sol": {
+			"keccak256": "0x40bb592f58d7699a39b7bcaf68ea41e15065b2887ac72c344961208b8a15a244",
+			"urls": [
+				"bzz-raw://122d846528b84d8c538fe78bcd31548a4a67c978831942374675c3eeb49e0e20",
+				"dweb:/ipfs/QmV84AFj4PzGBijHa1cqAP6Jap1W4U9sC2tNEekiXgBDtN"
+			]
+		}
+	},
+	"version": 1
+}
